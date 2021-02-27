@@ -1,0 +1,19 @@
+{
+  "name": "bblog",
+  "version": "1.0.0",
+  "description": "UI automation of BBlog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sripriyavasan/bblog-ui-test-automation.git"
+  },
+  "author": "Sripriya Srinivasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sripriyavasan/bblog-ui-test-automation/issues"
+  },
+  "homepage": "https://github.com/sripriyavasan/bblog-ui-test-automation#readme"
+}
