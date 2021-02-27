@@ -5,7 +5,7 @@ Feature: Check if users are able add/delete comments to articles in BBlog site
         When the user selects an article from "global" feed
         Then the user is unable to comments in the article
 
-    @smoke @test
+    @smoke
     Scenario Outline: Verify a registered user is able to add comments to an article
         Given a "registered" user is in BBlog website
         When the user selects an article from "user" feed
@@ -17,7 +17,7 @@ Feature: Check if users are able add/delete comments to articles in BBlog site
         | comment                 |
         | Test comment from User1 |
     
-    @smoke @test
+    @smoke
     Scenario: Verify a registered user is able to delete comments that they added an article
         Given a "registered" user is in BBlog website
         When the user selects an article from "user" feed

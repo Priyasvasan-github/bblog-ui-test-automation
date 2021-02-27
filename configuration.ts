@@ -40,15 +40,15 @@ export let config: Config = {
              '../javaScript/src/utils/*.js',
              '../javaScript/src/hooks/*.js'
         ],
-        format:'json:./target/reports/cucumberReport.json'
+        format:'json:./target/reports/CucumberReport.json'
     },
 
     // Generate report on completion of run
     onComplete: () => {
         var options = {
           theme: 'bootstrap',
-          jsonFile: './target/reports/cucumberReport.json',
-          output: './target/reports/cucumberReport.html',
+          jsonFile: './target/reports/CucumberReport.json',
+          output: './target/reports/CucumberReport.html',
           reportSuiteAsScenarios: true,
           scenarioTimestamp: true,
           launchReport: true,

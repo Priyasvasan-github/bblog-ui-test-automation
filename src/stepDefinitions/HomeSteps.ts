@@ -1,8 +1,8 @@
 'use strict';
 
 import { Given, When } from "cucumber";
-import home from "../pageObjects/homePage";
-import login from "../pageObjects/loginPage";
+import home from "../pageObjects/HomePage";
+import login from "../pageObjects/LoginPage";
 
 const config = require("../../../config/configuration.json");
 

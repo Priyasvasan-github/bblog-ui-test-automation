@@ -1,6 +1,6 @@
 'use strict';
 
-import basePage from "./basePage";
+import basePage from "./BasePage";
 import { ElementFinder, element, by } from "protractor";
 
 /**

@@ -1,9 +1,9 @@
 'use strict';
 
 import { When, Then } from "cucumber";
-import article from "../pageObjects/articlePage";
-import login from "../pageObjects/loginPage";
-import { sessionData } from "../utils/sessionData";
+import article from "../pageObjects/ArticlePage";
+import login from "../pageObjects/LoginPage";
+import { sessionData } from "../utils/SessionData";
 import chai from "chai";
 
 let articlePage = new article();

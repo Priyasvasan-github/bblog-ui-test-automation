@@ -1,9 +1,9 @@
 'use strict';
 
 import { Then } from "cucumber";
-import profile from "../pageObjects/profilePage";
+import profile from "../pageObjects/ProfilePage";
 import chai from "chai";
-import { sessionData } from "../utils/sessionData";
+import { sessionData } from "../utils/SessionData";
 
 const config = require("../../../config/configuration.json");
 

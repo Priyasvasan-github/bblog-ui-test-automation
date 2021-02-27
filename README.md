@@ -86,7 +86,7 @@ Open the cloned project in any IDE.
 
 ## 4) Test Result and Report
 cucumber-html-reporter has one of the best reporting and the test reports are generated every time we execute the tests with screenshots.
-When the project is cloned into local, test results reporting, along with screenshots, can be seen if we open **_`cucumberReport.html`_** from `(.\target\reports\cucumberReport.html)`.
+When the project is cloned into local, test results reporting, along with screenshots, can be seen if we open **_`CucumberReport.html`_** from `(.\target\reports\CucumberReport.html)`.
 
 ## 5) Headless mode
 This project invokes only the chromedriver to run tests in the Chrome browser. Driver properties has been configured to run in visible mode. 
@@ -95,7 +95,7 @@ This project invokes only the chromedriver to run tests in the Chrome browser. D
 		npm install && npm run webdriver-update && npm run compile && npm run headless
     
     To run a custom tag in headless mode (ex. @test):
-        npm install && npm run webdriver-update && npm run compile && protractor javaScript/configuration.js --cucumberOpts.tags '@test' --capabilities.chromeOptions.args '--headless'
+        npm install && npm run webdriver-update && npm run compile && protractor javaScript/configuration.js --cucumberOpts.tags '@test' --capabilities.chromeOptions.args='--headless'
 
 ## 6) CI/CD Integration
 CI/CD scripts to run this project in Jenkins can be found in Jenkinsfile

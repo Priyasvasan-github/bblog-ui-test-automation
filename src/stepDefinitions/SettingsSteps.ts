@@ -1,7 +1,7 @@
 'use strict';
 
 import { Then } from "cucumber";
-import settings from "../pageObjects/settingsPage";
+import settings from "../pageObjects/SettingsPage";
 
 let settingsPage = new settings();
 

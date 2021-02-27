@@ -32,8 +32,8 @@
     "protractor": "./node_modules/protractor/built/cli.js",
     "webdriver-update": "./node_modules/.bin/webdriver-manager update",
     "compile": "tsc",
-    "smokeTest": "protractor javaScript/configuration.js --cucumberOpts.tags '@smoke'",
+    "smoke": "protractor javaScript/configuration.js --cucumberOpts.tags '@smoke'",
     "test": "protractor javaScript/configuration.js",
-    "headless": "protractor javaScript/configuration.js --capabilities.chromeOptions.args '--headless'"
+    "headless": "protractor javaScript/configuration.js --capabilities.chromeOptions.args='--headless'"
   }
 }
