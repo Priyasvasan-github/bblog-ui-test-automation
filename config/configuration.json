@@ -1,0 +1,13 @@
+{
+  "bblog": {
+    "homePage": "https://candidatex:qa-is-cool@qa-task.backbasecloud.com",
+    "loginPage": "https://qa-task.backbasecloud.com/#/login",
+    "registerPage": "https://qa-task.backbasecloud.com/#/register",
+    "settingsPage": "https://qa-task.backbasecloud.com/#/settings"
+  },
+  "user1": {
+    "username": "sripriyasrinivasan",
+    "email": "sripriyavasan@gmail.com",
+    "password": "SripriyaTest"
+  }
+}
